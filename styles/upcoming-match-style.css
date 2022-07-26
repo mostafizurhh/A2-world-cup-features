@@ -11,7 +11,7 @@ main {
     flex-direction: column;
 }
 
-/* -----------------top-banner/header--------------- */
+/* -----------------top-banner/header section--------------- */
 .top-banner {
     color: white;
     background-color: #161616;
@@ -53,13 +53,13 @@ main {
     margin-left: 10px;
 }
 
-/*------------------ Blog section ----------------*/
-.blog-section {
+/* ----------all-match-blogs------ */
+.all-match-blogs {
     display: flex;
     margin-top: 50px;
 }
 
-/* -------------------nav bar-------------------- */
+/* ----------nav-section---------- */
 .nav-bar {
     display: flex;
     flex-direction: column;
@@ -72,6 +72,12 @@ main {
     margin-right: 20px;
 }
 
+#upcoming-match {
+    background-color: #DD0000;
+    color: white;
+    border: 0px solid black;
+}
+
 .nav-bar button {
     background-color: white;
     border: 0px solid white;
@@ -80,56 +86,38 @@ main {
     height: 56px;
 }
 
-#blog-button {
-    background-color: #DD0000;
-    color: white;
-    border: 0px solid black;
-    border-radius: 5px;
-    width: 160px;
-    height: 56px;
-}
-
-/* --------------------blogs part-------------- */
-.blogs {
+/* ------------all match schedule------- */
+.all-matches {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 
-.blog-detail {
+.match-detail {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     border: 1px solid lightgray;
-    border-radius: 15px;
+    border-radius: 10px;
     background-color: white;
-    filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.1));
+    padding: 30px;
 }
 
-.blog-detail img {
+.opponent {
+    display: flex;
+    align-items: center;
+}
+
+.opponent img {
     width: 100%;
+    padding: 10px;
 }
 
-.blog-info {
-    padding: 20px;
+.match-info h3 {
+    margin-bottom: 5px;
 }
 
-.blog-info button {
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 5px;
-}
-
-.blog-info span {
-    color: #161616;
-    opacity: 70%;
-}
-
-.fa-clock {
-    margin-right: 5px;
-    opacity: 70%;
-}
-
-.fa-comment-dots {
-    margin-right: 5px;
-    padding-left: 20px;
+.match-info span {
     opacity: 70%;
 }
 
