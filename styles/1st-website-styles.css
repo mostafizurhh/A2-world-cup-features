@@ -42,6 +42,10 @@
 }
 
 /*------------------ Blog section ----------------*/
+.blog-section {
+    display: flex;
+    margin-top: 50px;
+}
 
 /* -------------------nav bar-------------------- */
 .nav-bar {
@@ -53,7 +57,7 @@
     width: 270px;
     height: 270px;
     border-radius: 10px;
-
+    margin-right: 20px;
 }
 
 .nav-bar button {
