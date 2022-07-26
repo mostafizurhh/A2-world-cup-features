@@ -41,11 +41,12 @@ main {
 }
 
 .banner-text button {
+    font-size: 20px;
     background-color: #DD0000;
     color: white;
     border: 0px solid black;
     border-radius: 5px;
-    width: 160px;
+    width: 200px;
     height: 56px;
 }
 
@@ -73,16 +74,20 @@ main {
 }
 
 #upcoming-match {
+    font-size: 20px;
     background-color: #DD0000;
     color: white;
     border: 0px solid black;
+    width: 200px;
+    height: 56px;
 }
 
 .nav-bar button {
+    font-size: 20px;
     background-color: white;
     border: 0px solid white;
     border-radius: 5px;
-    width: 160px;
+    width: 200px;
     height: 56px;
 }
 
