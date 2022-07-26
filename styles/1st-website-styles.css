@@ -42,3 +42,35 @@
 }
 
 /*------------------ Blog section ----------------*/
+
+/* -------------------nav bar-------------------- */
+.nav-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #161616;
+    width: 270px;
+    height: 270px;
+    border-radius: 10px;
+
+}
+
+.nav-bar button {
+    background-color: white;
+    border: 0px solid white;
+    border-radius: 5px;
+    width: 160px;
+    height: 56px;
+}
+
+#blog-button {
+    background-color: #DD0000;
+    color: white;
+    border: 0px solid black;
+    border-radius: 5px;
+    width: 160px;
+    height: 56px;
+}
+
+/* --------------------blogs part-------------- */
