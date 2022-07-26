@@ -137,12 +137,15 @@ main {
 footer {
     background-color: #161616;
     color: white;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     padding: 40px;
     margin-top: 70px;
 }
 
 hr {
+    width: 100%;
     color: lightgray;
     opacity: 5%;
     border: .5px solid white;

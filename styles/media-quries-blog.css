@@ -1,0 +1,67 @@
+/* -------------mobile device----------- */
+@media only screen and (max-width:767px) {
+
+    /* -----------top banner section-------- */
+
+    .top-banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner-text {
+        height: 350px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .banner-image {
+        height: 350px;
+        width: 100%;
+    }
+
+    .banner-image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* -----------blog section-------- */
+
+    .blog-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-bar {
+        background-color: white;
+    }
+
+    .nav-bar button {
+        border: 1px solid lightgray;
+    }
+
+    .nav-bar button:hover {
+        width: 70%;
+        background-color: rgb(247, 226, 226);
+    }
+
+    .blogs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* -----------footer section-------- */
+
+    footer ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer ul li {
+        margin: 10px;
+    }
+}
