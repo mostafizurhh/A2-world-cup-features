@@ -156,11 +156,10 @@ hr {
     justify-content: center;
 }
 
-ul {
-    display: flex;
-}
+
 
 li {
+    list-style: none;
     margin-left: 50px;
 }
 
