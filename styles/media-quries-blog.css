@@ -8,7 +8,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 10px;
     }
 
     .banner-text {
@@ -34,7 +33,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 10px;
     }
 
     .nav-bar {
@@ -78,19 +76,12 @@
 
 @media only screen and (min-width:576px) and (max-width:768px) {
 
-    /* -----------top banner section-------- */
-
-    .top-banner {
-        margin: 10px;
-    }
-
     /* -----------blog section-------- */
 
     .blog-section {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 10px;
     }
 
     .nav-bar {
