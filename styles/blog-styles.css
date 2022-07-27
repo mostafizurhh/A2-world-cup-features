@@ -6,7 +6,7 @@ body {
 }
 
 main {
-    margin: 30px;
+    margin: 20px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -23,7 +23,7 @@ main {
     padding-top: 20px;
     padding-right: 50px;
     padding-left: 50px;
-    margin: 30px;
+    margin: 20px;
 }
 
 .banner-text {
@@ -65,7 +65,7 @@ main {
 /*------------------ Blog section ----------------*/
 .blog-section {
     display: flex;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 /* -------------------nav bar-------------------- */
@@ -126,6 +126,8 @@ main {
     background-color: white;
     border: 1px solid black;
     border-radius: 5px;
+    width: 100px;
+    height: 32px;
 }
 
 .blog-info span {
