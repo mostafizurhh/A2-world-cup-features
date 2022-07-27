@@ -54,6 +54,12 @@ main {
     margin-left: 10px;
 }
 
+.top-banner:hover button {
+    transform: scale(1.2);
+    transform-origin: top left;
+    transition: transform .1s linear;
+}
+
 /* ----------all-match-blogs------ */
 .all-match-blogs {
     display: flex;

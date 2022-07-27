@@ -1,0 +1,132 @@
+/* -------------mobile device----------- */
+
+@media only screen and (max-width:576px) {
+
+    /* -----------top banner section-------- */
+
+    .top-banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner-text {
+        height: 350px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .banner-image {
+        height: 350px;
+        width: 100%;
+    }
+
+    .banner-image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* -----------blog section-------- */
+
+    .blog-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-bar {
+        background-color: white;
+    }
+
+    .nav-bar button {
+        border: 1px solid lightgray;
+    }
+
+    .nav-bar button:hover {
+        width: 70%;
+        background-color: rgb(247, 226, 226);
+    }
+
+    .blogs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .view-all {
+        display: none;
+    }
+
+    /* -----------footer section-------- */
+    .footer-nav {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    li {
+        margin-left: 0%;
+        margin-top: 20px;
+    }
+}
+
+/* -------------tablet device----------- */
+
+@media only screen and (min-width:576px) and (max-width:768px) {
+
+    /* -----------blog section-------- */
+
+    .blog-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-bar {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: white;
+    }
+
+    .nav-bar button {
+        margin-left: 30px;
+        border: 1px solid lightgray;
+    }
+
+    .nav-bar button:hover {
+        width: 50%;
+        background-color: rgb(247, 226, 226);
+    }
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .view-all {
+        margin-top: 30px;
+    }
+
+    /* -----------footer section-------- */
+    .footer-nav {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    li {
+        margin-top: 20px;
+    }
+}
+
+/* -------------Web----------- */
+@media only screen and (min-width:769px) {
+    .view-all {
+        display: none;
+    }
+}
