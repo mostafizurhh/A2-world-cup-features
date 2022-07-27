@@ -27,9 +27,9 @@
         height: 100%;
     }
 
-    /* -----------blog section-------- */
+    /* -----------all-match-blogs-------- */
 
-    .blog-section {
+    .all-match-blogs {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -48,7 +48,7 @@
         background-color: rgb(247, 226, 226);
     }
 
-    .blogs {
+    .all-matches {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -65,7 +65,6 @@
         flex-direction: column;
     }
 
-
     li {
         margin-left: 0%;
         margin-top: 20px;
@@ -78,7 +77,7 @@
 
     /* -----------blog section-------- */
 
-    .blog-section {
+    .all-match-blogs {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -102,7 +101,7 @@
         background-color: rgb(247, 226, 226);
     }
 
-    .blogs {
+    .all-matches {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
