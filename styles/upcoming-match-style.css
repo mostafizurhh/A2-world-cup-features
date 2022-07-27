@@ -73,15 +73,6 @@ main {
     margin-right: 20px;
 }
 
-#upcoming-match {
-    font-size: 20px;
-    background-color: #DD0000;
-    color: white;
-    border: 0px solid black;
-    width: 200px;
-    height: 56px;
-}
-
 .nav-bar button {
     font-size: 20px;
     background-color: white;
@@ -89,6 +80,16 @@ main {
     border-radius: 5px;
     width: 200px;
     height: 56px;
+}
+
+#upcoming-match {
+    background-color: #DD0000;
+    color: white;
+}
+
+button a {
+    text-decoration: none;
+    color: #161616;
 }
 
 /* ------------all match schedule------- */
