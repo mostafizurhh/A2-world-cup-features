@@ -6,6 +6,7 @@ body {
 }
 
 main {
+    margin: 30px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -22,6 +23,7 @@ main {
     padding-top: 20px;
     padding-right: 50px;
     padding-left: 50px;
+    margin: 30px;
 }
 
 .banner-text {
